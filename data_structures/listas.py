@@ -1,3 +1,4 @@
+# Las listas son conjuntos de elementos ordenados, mutables (que pueden ser modificados) y permiten valores duplicados.
 lista = [1, 'Hola', 3.17, True]
 print(lista)
 

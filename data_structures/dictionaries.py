@@ -1,3 +1,4 @@
+#Los diccionarios son conjuntos de datos tipo key:value ordenados, mutables y NO permiten valores duplicados
 firstDictionary = {'Colombia':'Bogotá','Alemania':'Berlín','Canadá':'Ottawa','Rusia':'Moscú'}
 print(firstDictionary['Colombia'])
 firstDictionary['Italia'] = 'Madrid'

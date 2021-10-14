@@ -2,20 +2,20 @@ def evenNumbers(lim):
     n = 1
     lista = []
     while n<lim:
-        lista.append(n*2)   #generadorn't
+        lista.append(n*2)   #función
         n+=1
     return lista
 
 print(evenNumbers(3))
 print('Fin')
 
-def even_Numbers(lim):
+def evenNumbers(lim):
     n = 1
     while n<lim:
         yield n*2       #generador
         n+=1
 
-resultado = even_Numbers(11)
+resultado = evenNumbers(11)
 print(next(resultado))
 print('Fin')
 print(next(resultado))
